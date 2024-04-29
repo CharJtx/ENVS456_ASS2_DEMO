@@ -38,7 +38,7 @@ def makeMap(currentLat,
         # attr="Mapbox attribution",
         # tiles='https://api.mapbox.com/v4/mapbox.streets/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiY2hhcmp0eCIsImEiOiJjbHRjeTluZTQwMHFtMmpxdW0yMHhiMmFvIn0.RjWj0q3i9XyxteWdhF3B9Q'
     )
-    map = addDetails(searchNearBy, map)
+    # map = addDetails(searchNearBy, map)
     map = addRatingColor(map)
 
     return map
